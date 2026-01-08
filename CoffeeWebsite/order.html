@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Coffee Community - Order</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <h1 class="logo">Coffee à Gout</h1>
+    <nav class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="community.html">Community</a>
+      <a href="about.html">About</a>
+      <a href="order.html">Order Online</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="cart-counter" id="cartCounter">🛒 0</div>
+  </div>
+</header>
+
+<section class="process-section">
+  <br>
+  <br>
+  <br>
+  <h2>Order Your Coffee</h2>
+  <form id="orderForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+
+    <select name="coffee" id="coffeeSelect" required>
+      <option value="" disabled selected>Select Coffee</option>
+      <option value="latte">Latte</option>
+      <option value="espresso1">Espresso1</option>
+      <option value="cappuccino">Cappuccino</option>
+      <option value="mocha">Mocha</option>
+    </select>
+
+    <div class="size-options">
+      <p>Choose Size:</p>
+      <label><input type="radio" name="size" value="Small" required> Small</label>
+      <label><input type="radio" name="size" value="Medium"> Medium</label>
+      <label><input type="radio" name="size" value="Large"> Large</label>
+    </div>
+
+    <div class="toppings-options">
+      <p>Choose Toppings:</p>
+      <label><input type="checkbox" name="toppings" value="Whipped Cream"> Whipped Cream</label>
+      <label><input type="checkbox" name="toppings" value="Chocolate"> Chocolate</label>
+      <label><input type="checkbox" name="toppings" value="Caramel"> Caramel</label>
+      <label><input type="checkbox" name="toppings" value="Cinnamon"> Cinnamon</label>
+    </div>
+
+    <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
+    <button class="btn btn-cart">Add to Cart</button>
+  </form>
+
+  <div id="cartItems" class="cart-items"></div>
+</section>
+
+<footer>
+  <p>© 2024 Coffee Community</p>
+</footer>
+
+<script>
+  const form = document.getElementById('orderForm');
+  const cartCounter = document.getElementById('cartCounter');
+  const cartItemsDiv = document.getElementById('cartItems');
+  let cart = [];
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const coffee = document.getElementById('coffeeSelect').value;
+    const size = form.size.value;
+    const toppings = [...form.querySelectorAll('input[name="toppings"]:checked')].map(el => el.value);
+    const message = form.message.value;
+
+    const order = {coffee, size, toppings, message};
+    cart.push(order);
+    updateCart();
+    form.reset();
+  });
+
+  function updateCart() {
+    cartCounter.textContent = `🛒 ${cart.length}`;
+    cartItemsDiv.innerHTML = `<h3>Your Orders:</h3>`;
+    cart.forEach((item, index) => {
+      const toppingsText = item.toppings.length > 0 ? `Toppings: ${item.toppings.join(', ')}` : '';
+      const orderDiv = document.createElement('div');
+      orderDiv.className = 'cart-item';
+      orderDiv.innerHTML = `
+        <p><strong>${item.coffee}</strong> - ${item.size}</p>
+        <p>${toppingsText}</p>
+        <p>${item.message}</p>
+        <button onclick="removeItem(${index})">Remove</button>
+      `;
+      cartItemsDiv.appendChild(orderDiv);
+    });
+  }
+
+  function removeItem(index) {
+    cart.splice(index, 1);
+    updateCart();
+  }
+</script>
