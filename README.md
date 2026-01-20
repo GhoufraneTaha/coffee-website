@@ -1,7 +1,7 @@
 
        Coffee à Gout - Web Development Project
 
--Project Overview
+##Project Overview
 Coffee à Gout is a modern, visually appealing, and fully responsive website
 designed for a coffee shop. The site showcases premium coffee offerings,
 highlights the cozy atmosphere, promotes community engagement, and allows
@@ -15,7 +15,7 @@ Live Website
 Access the live website here:
 https://ghoufranetaha.github.io/coffee-website/
 
-Features:
+##Features:
 [Home Page]
 - Hero section with high-quality images.
 - "Explore Menu" button for quick navigation.
@@ -41,14 +41,14 @@ Features:
 - Contact form for inquiries or feedback.
 - Accessible and mobile-friendly layout.
 
-Technologies Used:
+##Technologies Used:
 - HTML5
 - CSS3 (including gradients, shadows, hover effects)
 - JavaScript (script.js) for interactivity
 - Responsive web design with media queries (mobile, tablet, desktop)
 - Flexbox for layout and card designs
 
-Project Structure
+##Project Structure
 coffee-website/
 ├── index.html
 ├── menu.html
@@ -64,17 +64,17 @@ coffee-website/
     ├── latte.jpg
     └── ... other images
 
-How to Run the Project
+##How to Run the Project
 1. Clone or download the repository.
 2. Open the project folder.
 3. Open any `.html` file in a web browser (e.g., `index.html`) to explore the website.
 4. Alternatively, visit the live website: https://ghoufranetaha.github.io/coffee-website/
 
-Notes
+##Notes
 - Fully responsive and compatible with desktop, tablet, and mobile screens.
 - Interactive elements such as hover effects, dynamic cart, and buttons enhance user experience.
 - All images are stored locally in the `images` folder.
 - `script.js` handles interactive features across the website.
 
-##Ghoufrane Taha
-##Front-end Developer & Designer
+Ghoufrane Taha
+Front-end Developer & Designer
