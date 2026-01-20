@@ -2,7 +2,7 @@
 >>> COFFEE À GOUT - WEB DEVELOPMENT PROJECT
 ============================================================
 
->>> PROJECT OVERVIEW
+ PROJECT OVERVIEW
 ------------------------------------------------------------
 Coffee à Gout is a modern, fully responsive website for a premium coffee shop.
 It showcases specialty coffee, promotes a cozy atmosphere, engages the community,
@@ -16,7 +16,7 @@ This project demonstrates front-end development skills using:
 Focus is on **user experience, interactivity, and visual aesthetics**.
 
 ============================================================
->>> WEBSITE PAGES
+ WEBSITE PAGES
 ------------------------------------------------------------
 
 [HOME PAGE] (index.html)
@@ -45,7 +45,7 @@ Focus is on **user experience, interactivity, and visual aesthetics**.
   • Mobile-friendly and responsive design
 
 ============================================================
->>> TECHNOLOGIES USED
+ TECHNOLOGIES USED
 ------------------------------------------------------------
 - HTML5
 - CSS3 (gradients, shadows, hover effects)
@@ -54,7 +54,7 @@ Focus is on **user experience, interactivity, and visual aesthetics**.
 - Media queries for responsive design (desktop, tablet, mobile)
 
 ============================================================
->>> PROJECT STRUCTURE
+ PROJECT STRUCTURE
 ------------------------------------------------------------
 coffee-website/
 ├── index.html
@@ -72,7 +72,7 @@ coffee-website/
     └── ... other images
 
 ============================================================
->>> FEATURES & HIGHLIGHTS
+ FEATURES & HIGHLIGHTS
 ------------------------------------------------------------
 • Fully responsive across desktop, tablet, and mobile screens
 • Interactive elements: hover effects, buttons, dynamic cart
@@ -80,10 +80,10 @@ coffee-website/
 • Locally stored images for faster loading and offline preview
 
 ============================================================
->>> AUTHOR
+ AUTHOR
 ------------------------------------------------------------
 Ghoufrane Taha
-Front-End Developer & Designer
+Front-End Developer & Designer,
 Website: https://ghoufranetaha.github.io/coffee-website/
 
 ============================================================
