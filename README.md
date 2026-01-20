@@ -3,32 +3,32 @@
 ====================================================
 
 >>> PROJECT OVERVIEW
-Coffee à Gout is a modern, fully responsive website for a coffee shop.
-The website showcases premium coffee offerings, highlights the cozy atmosphere,
-promotes community engagement, and allows users to explore the menu and place orders online.
+Coffee à Gout is a modern, fully responsive website for a premium coffee shop.
+The website showcases specialty coffee, promotes a cozy atmosphere, engages the community,
+and allows users to explore the menu and place orders online.
 
-This project demonstrates front-end development skills using HTML, CSS, JavaScript (script.js),
-and responsive design principles, emphasizing user experience, interactivity, and visual aesthetics.
+This project demonstrates front-end development skills using HTML, CSS, and JavaScript (script.js),
+with focus on user experience, interactivity, and visual aesthetics.
 
 ----------------------------------------------------
 >>> WEBSITE PAGES
 
 HOME PAGE (index.html)
   - Hero section with high-quality images
-  - "Explore Menu" button for navigation
+  - "Explore Menu" button for smooth navigation
   - Featured coffee drinks with hover effects
   - "Why Choose Us?" section highlighting premium quality and cozy space
 
 MENU PAGE (menu.html)
   - Full coffee menu with images and descriptions
-  - "Order Now" button for fast ordering
+  - "Order Now" button for quick purchases
   - Fully responsive layout
 
 COMMUNITY PAGE (community.html)
-  - Highlights events, social engagement, or coffee-related activities
+  - Highlights events, social engagement, and coffee-related activities
 
 ABOUT PAGE (about.html)
-  - Coffee shop story, process, and ethical approach
+  - Coffee shop story, brewing process, and ethical approach
 
 ORDER PAGE (order.html)
   - Interactive cart for coffee size and toppings selection
@@ -36,7 +36,7 @@ ORDER PAGE (order.html)
 
 CONTACT PAGE (contact.html)
   - Contact form for inquiries or feedback
-  - Mobile-friendly and responsive layout
+  - Mobile-friendly and responsive design
 
 ----------------------------------------------------
 >>> TECHNOLOGIES USED
@@ -67,12 +67,11 @@ coffee-website/
 > Images are stored in the 'images/' folder.
 
 ----------------------------------------------------
-
->>> NOTES
+>>> FEATURES & HIGHLIGHTS
 - Fully responsive across desktop, tablet, and mobile screens
-- Interactive elements such as hover effects, buttons, and dynamic cart
-- script.js handles all interactive features across the website
-- Images stored locally in the 'images/' folder
+- Interactive elements: hover effects, buttons, dynamic cart
+- JavaScript-powered interactivity for enhanced UX
+- Local images for faster loading and offline preview
 
 ----------------------------------------------------
 >>> AUTHOR
