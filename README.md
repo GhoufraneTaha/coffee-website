@@ -61,14 +61,13 @@ coffee-website/
     ├── beans.jpg
     ├── latte.jpg
     └── ... other images
-
+----------------------------------------------------
 Notes
 -Fully responsive design across desktop, tablet, and mobile screens
 -Interactive elements like hover effects, buttons, and dynamic cart enhance user experience
 -All images are stored locally in the images/ folder
 -script.js handles all interactive features on the website
+----------------------------------------------------
 
-*Author: Ghoufrane Taha
 *Role: Front-End Developer & Designer
 *Tech Stack: HTML5, CSS3, JavaScript (script.js), Responsive Design
-*Live Website: https://ghoufranetaha.github.io/coffee-website/
