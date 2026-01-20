@@ -1,69 +1,61 @@
-====================================================
+============================================================
+>>> COFFEE À GOUT - WEB DEVELOPMENT PROJECT
+============================================================
 
-COFFEE À GOUT - WEB DEVELOPMENT PROJECT
-====================================================
-
-PROJECT OVERVIEW
+>>> PROJECT OVERVIEW
+------------------------------------------------------------
 Coffee à Gout is a modern, fully responsive website for a premium coffee shop.
-The website showcases specialty coffee, promotes a cozy atmosphere, engages the community,
+It showcases specialty coffee, promotes a cozy atmosphere, engages the community,
 and allows users to explore the menu and place orders online.
 
-This project demonstrates front-end development skills using HTML, CSS, and JavaScript (script.js),
-with focus on user experience, interactivity, and visual aesthetics.
+This project demonstrates front-end development skills using:
+- HTML5
+- CSS3
+- JavaScript (script.js)
 
-WEBSITE PAGES
+Focus is on **user experience, interactivity, and visual aesthetics**.
 
-HOME PAGE (index.html)
+============================================================
+>>> WEBSITE PAGES
+------------------------------------------------------------
 
-Hero section with high-quality images
+[HOME PAGE] (index.html)
+  • Hero section with high-quality images
+  • "Explore Menu" button for smooth navigation
+  • Featured coffee drinks with hover effects
+  • "Why Choose Us?" section highlighting premium quality and cozy space
 
-"Explore Menu" button for smooth navigation
+[MENU PAGE] (menu.html)
+  • Full coffee menu with images and descriptions
+  • "Order Now" button for quick purchases
+  • Fully responsive layout
 
-Featured coffee drinks with hover effects
+[COMMUNITY PAGE] (community.html)
+  • Highlights events, social engagement, and coffee-related activities
 
-"Why Choose Us?" section highlighting premium quality and cozy space
+[ABOUT PAGE] (about.html)
+  • Coffee shop story, brewing process, and ethical approach
 
-MENU PAGE (menu.html)
+[ORDER PAGE] (order.html)
+  • Interactive cart for coffee size and toppings selection
+  • Real-time cart preview and item removal
 
-Full coffee menu with images and descriptions
+[CONTACT PAGE] (contact.html)
+  • Contact form for inquiries or feedback
+  • Mobile-friendly and responsive design
 
-"Order Now" button for quick purchases
+============================================================
+>>> TECHNOLOGIES USED
+------------------------------------------------------------
+- HTML5
+- CSS3 (gradients, shadows, hover effects)
+- JavaScript (script.js) for interactive features
+- Flexbox for layout and card designs
+- Media queries for responsive design (desktop, tablet, mobile)
 
-Fully responsive layout
-
-COMMUNITY PAGE (community.html)
-
-Highlights events, social engagement, and coffee-related activities
-
-ABOUT PAGE (about.html)
-
-Coffee shop story, brewing process, and ethical approach
-
-ORDER PAGE (order.html)
-
-Interactive cart for coffee size and toppings selection
-
-Real-time cart preview and item removal
-
-CONTACT PAGE (contact.html)
-
-Contact form for inquiries or feedback
-
-Mobile-friendly and responsive design
-
-TECHNOLOGIES USED
-
-HTML5
-
-CSS3 (gradients, shadows, hover effects)
-
-JavaScript (script.js) for interactivity
-
-Flexbox for layout and card designs
-
-Responsive Design using media queries (desktop, tablet, mobile)
-
-PROJECT STRUCTURE
+============================================================
+>>> PROJECT STRUCTURE
+------------------------------------------------------------
 coffee-website/
 ├── index.html
 ├── menu.html
@@ -74,27 +66,24 @@ coffee-website/
 ├── style.css
 ├── script.js
 └── images/
-├── ourplace.jpg
-├── beans.jpg
-├── latte.jpg
-└── ... other images
+    ├── ourplace.jpg
+    ├── beans.jpg
+    ├── latte.jpg
+    └── ... other images
 
-Note: All HTML, CSS, and JS files are in the root directory for GitHub Pages deployment.
-Images are stored in the 'images/' folder.
+============================================================
+>>> FEATURES & HIGHLIGHTS
+------------------------------------------------------------
+• Fully responsive across desktop, tablet, and mobile screens
+• Interactive elements: hover effects, buttons, dynamic cart
+• JavaScript-powered interactivity for enhanced UX
+• Locally stored images for faster loading and offline preview
 
-FEATURES & HIGHLIGHTS
-
-Fully responsive across desktop, tablet, and mobile screens
-
-Interactive elements: hover effects, buttons, dynamic cart
-
-JavaScript-powered interactivity for enhanced UX
-
-Local images for faster loading and offline preview
-
-AUTHOR
+============================================================
+>>> AUTHOR
+------------------------------------------------------------
 Ghoufrane Taha
 Front-End Developer & Designer
-WEBSITE: https://ghoufranetaha.github.io/coffee-website/
+Website: https://ghoufranetaha.github.io/coffee-website/
 
-====================================================
+============================================================
