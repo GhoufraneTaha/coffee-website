@@ -1,6 +1,6 @@
 Coffee à Gout - Website
-Project Overview
 
+Project Overview
 Coffee à Gout is a modern, visually appealing, and fully responsive website for a coffee shop. It showcases premium coffee offerings, highlights the cozy atmosphere, promotes community engagement, and allows users to explore the menu and place orders online.
 
 This project demonstrates front-end development skills using HTML, CSS, JavaScript (script.js), and responsive design principles, with emphasis on user experience, interactivity, and visual aesthetics.
@@ -10,29 +10,29 @@ Website: https://ghoufranetaha.github.io/coffee-website/
 ----------------------------------------------------
 Features
 
-*Home Page (index.html)
- -Hero section with high-quality images
- -“Explore Menu” button for quick navigation
- -Featured coffee drinks with hover effects
+ Home Page (index.html)
+-Hero section with high-quality images
+-“Explore Menu” button for quick navigation
+-Featured coffee drinks with hover effects
 
 “Why Choose Us?” section highlighting premium quality and cozy space
 
-*Menu Page (menu.html)
+ Menu Page (menu.html)
 -Full coffee menu with images and descriptions
 -“Order Now” button for quick access to online orders
 -Fully responsive design
 
-*Community Page (community.html)
+ Community Page (community.html)
 -Highlights events, social engagement, or coffee-related activities
 
-*About Page (about.html)
+ About Page (about.html)
 -Coffee shop story and ethical approach
 
-*Order Page (order.html)
+ Order Page (order.html)
 -Interactive cart for selecting coffee size and toppings
 -Real-time cart preview and item removal
 
-*Contact Page (contact.html)
+ Contact Page (contact.html)
 -Contact form for inquiries or feedback
 -Mobile-friendly and responsive layout
 ----------------------------------------------------
@@ -68,7 +68,7 @@ Notes
 -All images are stored locally in the images/ folder
 -script.js handles all interactive features on the website
 
-> Author: Ghoufrane Taha
-> Role: Front-End Developer & Designer
-> Tech Stack: HTML5, CSS3, JavaScript (script.js), Responsive Design
-> Live Website: https://ghoufranetaha.github.io/coffee-website/
+*Author: Ghoufrane Taha
+*Role: Front-End Developer & Designer
+*Tech Stack: HTML5, CSS3, JavaScript (script.js), Responsive Design
+*Live Website: https://ghoufranetaha.github.io/coffee-website/
