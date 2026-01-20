@@ -67,14 +67,7 @@ coffee-website/
 > Images are stored in the 'images/' folder.
 
 ----------------------------------------------------
->>> HOW TO RUN THE PROJECT LOCALLY
-$ git clone https://github.com/GhoufraneTaha/coffee-website.git
-$ cd coffee-website
-$ open index.html    # Launch website in default browser
 
-> Or visit the live website directly: https://ghoufranetaha.github.io/coffee-website/
-
-----------------------------------------------------
 >>> NOTES
 - Fully responsive across desktop, tablet, and mobile screens
 - Interactive elements such as hover effects, buttons, and dynamic cart
